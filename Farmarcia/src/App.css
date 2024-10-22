@@ -1,0 +1,74 @@
+:root {
+  --cor-1: #e23e57; /* Cor principal */
+  --cor-2: #ffffff; /* Cor de fundo */
+  --cor-3: #e96a7e; /* Cor secundária */
+  --cor-4: #ce1f3a; /* Cor de destaque */
+  --cor-5: #e6e6e6; /* Cor de fundo leve */
+  --cor-6: #ef97a4; /* Cor para elementos secundários */
+}
+
+body {
+  background-color: var(--cor-1);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.app {
+  text-align: center;
+  padding: 20px; /* Adicionando padding ao app */
+}
+
+.header {
+  background-color: var(--cor-1);
+  padding: 20px;
+  color: var(--cor-2);
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+}
+
+.logo {
+  width: 100px; /* Ajuste a largura do logo */
+  display: flex;
+  justify-content: center;
+  border: 10;
+}
+
+.content {
+  padding: 40px;
+}
+
+.home {
+  padding: 40px;
+  color: var(--cor-4);
+  border-radius: 10px; /* Bordas arredondadas */
+  background-color: var(--cor-2); /* Fundo branco para contraste */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  margin: 20px auto; /* Margem superior e inferior */
+  max-width: 600px; /* Limitar a largura para melhor visualização */
+}
+
+.button {
+  background-color: var(--cor-1);
+  color: var(--cor-2);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Efeito de transição */
+}
+
+.button:hover {
+  background-color: var(--cor-3); /* Mudar a cor ao passar o mouse */
+}
+
+.password-manager {
+  padding: 20px;
+  background-color: var(--cor-6);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 400px; /* Limitar a largura para melhor visualização */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
