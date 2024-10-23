@@ -1,14 +1,26 @@
-import React from 'react';
-import './App.css';
-import Home from './Home';
+import './App.css'
+import Body from './assets/components/Body'
+import Contato from './assets/components/Contato'
+import Header from './assets/components/Header'
 
-function App (){
 
-    return (
-        <div>
-            <Home/>
-        </div>
-    );
-};
 
-export default App;
+
+
+function App() {
+
+  return (
+    <>
+   <Header/>
+   <Body/>
+   <Contato/> 
+  
+ 
+  
+
+    
+    </>
+  )
+}
+
+export default App
